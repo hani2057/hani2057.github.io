@@ -1,2 +1,2 @@
-const title001 = "테스트용 타이틀";
-document.getElementsByTagName("title").innerText = title001;
+const title001 = document.querySelector("#title");
+document.title = title001;

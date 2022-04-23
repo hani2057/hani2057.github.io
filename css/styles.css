@@ -1,6 +1,13 @@
+@font-face {
+    src: url("../fonts/CookieRunFont_TTF/CookieRun\ Bold.ttf");
+    font-family: "CookieRun-Bold"
+}
+
 header {
     width: 100vw;
     height: 10vh;
     background-color: #fff899;
+    font-family: "CookieRun-Bold";
+    font-size: 1vw;
     font-weight: 900;
 }

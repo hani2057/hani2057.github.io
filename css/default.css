@@ -2,7 +2,13 @@
 http://meyerweb.com/eric/tools/css/reset/ 
 v2.0 | 20110126
 License: none (public domain) 
-*/ 
+*/
+@font-face {
+    font-family: 'GowunDodum-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunDodum-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+} 
    
 html, body, div, span, applet, object, iframe, 
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, 
@@ -30,9 +36,13 @@ footer, header, hgroup, menu, nav, section {
     display: block; 
 } 
 body { 
-    line-height: 1; 
-} 
-ol, ul { 
+    line-height: 1.8; 
+    font-family: GowunDodum-Regular, '맑은 고딕','돋움', Dotum, AppleGothic, Sans-serif, Arial;
+    font-size: 2vmin;
+    color: #333;
+}
+
+ol, ul, li { 
     list-style: none; 
 } 
 blockquote, q { 
@@ -47,4 +57,13 @@ table {
     border-collapse: collapse; 
     border-spacing: 0; 
 }
-
+*, html {
+    box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+} 
+*, *:before, *:after {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+}

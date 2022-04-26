@@ -1,15 +1,29 @@
 @import "../css/default.css";
 
 @font-face {
-    src: url("../fonts/CookieRunFont_TTF/CookieRun\ Bold.ttf");
-    font-family: "CookieRun-Bold"
+    src: url("../fonts/CookieRunFont_TTF/CookieRun\ Regular.ttf");
+    font-family: "CookieRun-Regular"
 }
 
 header {
     width: 100vw;
-    height: 3vw;
-    background-color: #fff899;
-    font-family: "CookieRun-Bold";
-    font-size: 1vw;
-    font-weight: 900;
+    height: 7vw;
+    font-family: "CookieRun-Regular";
+    font-size: 2.5vw;
+    font-weight: 200;
+    padding: 0px 2vw;
+    border-bottom: 3px solid #fff899;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fa-paw {
+    transform: rotateZ(20deg);
+}
+header > span.kimHani {
+    font-size: 1.5vw;
+}
+main {
+    padding: 0vw 20vw;
+    text-align: justify;
 }

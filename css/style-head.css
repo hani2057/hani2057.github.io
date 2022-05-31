@@ -1,0 +1,28 @@
+@import "../css/default.css";
+
+@font-face {
+    src: url("../fonts/CookieRunFont_TTF/CookieRun\ Regular.ttf");
+    font-family: "CookieRun-Regular"
+}
+
+.head {
+    width: 100vw;
+    height: 120px;
+    font-family: "CookieRun-Regular";
+    font-weight: 200;
+    border-bottom: 3px solid #fff899;
+}
+.head header hgroup p.title a {
+    font-size: 35px;
+}
+.head header hgroup p.subtitle small {
+    font-size: 13px;
+}
+.fa-paw {
+    transform: rotateZ(20deg);
+}
+.head header hgroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

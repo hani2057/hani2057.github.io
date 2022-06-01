@@ -1,0 +1,25 @@
+.body .main-wrap {
+    border-left: 1px solid #fff899;
+    text-align: justify;
+}
+.body .main-wrap main {
+    display: flex;
+    justify-content: center;
+}
+
+/* 하기 main의 내용이 postlist일 때 */
+.body .main-wrap main .postlist-wrap .postlist__body div table thead tr{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 하기 main의 내용이 post일 때 */
+.body .main-wrap main .post-wrap {
+    padding: 50px 160px;
+}
+
+postTitle {
+    font-size: 4vmin;
+    font-weight: 900;
+    margin: 3vmin 0px;
+}

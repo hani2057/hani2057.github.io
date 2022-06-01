@@ -1,9 +1,12 @@
 @import "../css/default.css";
 @import "../css/style-head.css";
 @import "../css/style-category.css";
-@import "../css/style-post.css";
+@import "../css/style-main.css";
 
-main {
-    padding: 0vw 20vw;
-    text-align: justify;
+.body {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+}
+img.size-adj {
+    width: 600px;
 }
